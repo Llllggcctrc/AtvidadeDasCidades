@@ -60,7 +60,8 @@ Criando a tabela utilizei o seguinte comando:
 CREATE TABLE maioresCidades (
 id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
 nome VARCHAR(50) NOT NULL,
- populacao INT NOT NULL
+ populacao INT NOT NULL);
+
 ```
 assim foi criado a tabela maioresCidades
 
